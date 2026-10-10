@@ -295,3 +295,13 @@ html, body { overflow-x: clip; }
 .legal-link[hidden] { display: none; }
 footer .legal-link { color: #BFD0E0; }
 @media (max-width: 720px) { .top .lang { margin-left: auto; } .top .lang + .btn { margin-left: 0; } }
+
+/* ── Ролик ── */
+.sec.reel { background: linear-gradient(180deg, #0A2038 0%, #0B3256 100%); color: #fff; }
+.reel .sec-no { color: var(--sky); }
+.reel h2 { color: #fff; }
+.reel .sec-sub { color: #B7CCDC; }
+.player { margin: 0 auto; max-width: 1040px; }
+.player video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #06182A; border-radius: var(--radius); border: 1.5px solid rgba(154, 219, 248, .4); box-shadow: 0 40px 80px -30px rgba(0, 0, 0, .6); }
+.player figcaption { margin-top: 14px; font-size: 13px; color: #8FA9BF; text-align: center; }
+.player a { color: var(--sky); }
