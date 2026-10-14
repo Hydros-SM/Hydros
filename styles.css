@@ -249,7 +249,7 @@ footer a { text-decoration: none; color: #BFD0E0; } footer a:hover { color: #fff
   .top .btn { margin-left: auto; }
   .hero { padding: 40px 0 64px; }
   .grid, .steps, .two, .row2 { grid-template-columns: 1fr; }
-  .mod.wide { grid-column: auto; }
+  .mod.wide, .grid .mod:last-child { grid-column: auto; }
   .step { border-left: 0; border-top: 1px solid var(--line); } .step:first-child { border-top: 0; }
   .win-body { grid-template-columns: 1fr; } .win-side { display: none; }
   .sec { padding: 72px 0; }

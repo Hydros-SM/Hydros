@@ -40,7 +40,10 @@
     function frame() {
       ticking = false;
       var sy = window.scrollY;
+      var narrow = window.innerWidth < 720;
       items.forEach(function (it) {
+        // карточки модулей на телефоне идут в один столбец — смещение налезало бы на соседние
+        if (narrow && it.el.classList.contains('mod')) { if (it.y) { it.el.style.translate = ''; it.y = it.x = null; } return; }
         var center = it.base - sy - vh / 2;         // расстояние центра слоя от центра экрана
         if (Math.abs(center) > vh / 2 + it.h / 2 + vh * 0.6) return; // далеко от экрана — не считаем
         var y = Math.round(-center * it.sy * strength * 10) / 10;
