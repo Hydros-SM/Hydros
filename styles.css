@@ -305,3 +305,15 @@ footer .legal-link { color: #BFD0E0; }
 .player video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #06182A; border-radius: var(--radius); border: 1.5px solid rgba(154, 219, 248, .4); box-shadow: 0 40px 80px -30px rgba(0, 0, 0, .6); }
 .player figcaption { margin-top: 14px; font-size: 13px; color: #8FA9BF; text-align: center; }
 .player a { color: var(--sky); }
+
+/* ── Демо на сайте ── */
+.demo-grid { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 48px; align-items: center; }
+.demo-points { list-style: none; padding: 0; margin: 18px 0 26px; display: grid; gap: 8px; color: var(--ink-2); font-size: 15px; }
+.demo-points li { position: relative; padding-left: 22px; }
+.demo-points li::before { content: ''; position: absolute; left: 0; top: .55em; width: 9px; height: 9px; border-radius: 50%; background: var(--teal); }
+.demo-shot { display: block; border: 1.5px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--card); box-shadow: 0 30px 60px -28px rgba(15, 76, 129, .45); transition: transform .35s ease, box-shadow .35s ease; }
+.demo-shot:hover { transform: translateY(-4px); box-shadow: 0 40px 70px -28px rgba(15, 76, 129, .55); }
+.demo-shot img { display: block; width: 100%; height: auto; }
+.demo-bar { display: flex; gap: 6px; padding: 9px 12px; background: var(--paper-2); border-bottom: 1px solid var(--line); }
+.demo-bar i { width: 9px; height: 9px; border-radius: 50%; background: var(--line); }
+@media (max-width: 900px) { .demo-grid { grid-template-columns: 1fr; gap: 28px; } }

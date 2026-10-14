@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hydros">
+  <defs>
+    <clipPath id="clip"><path d="M100 10 C100 10 36 84 36 128 A64 64 0 0 0 164 128 C164 84 100 10 100 10Z"/></clipPath>
+  </defs>
+  <path d="M100 10 C100 10 36 84 36 128 A64 64 0 0 0 164 128 C164 84 100 10 100 10Z" fill="#0F4C81"/>
+  <g clip-path="url(#clip)" fill="none" stroke="#FFFFFF" stroke-linecap="round">
+    <path d="M20 74 Q60 58 100 72 T180 64" stroke-width="2"/>
+    <path d="M20 98 Q60 82 100 96 T180 88" stroke-width="3"/>
+    <path d="M20 122 Q60 106 100 120 T180 112" stroke-width="4"/>
+    <path d="M20 148 Q60 132 100 146 T180 138" stroke-width="5"/>
+    <path d="M20 174 Q60 158 100 172 T180 164" stroke-width="6"/>
+  </g>
+</svg>

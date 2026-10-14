@@ -1,0 +1,1 @@
+let r=null;function l(){return window.XLSX?Promise.resolve(window.XLSX):r||(r=new Promise((n,o)=>{const e=document.createElement("script");e.src="./vendor/xlsx/xlsx.full.min.js",e.onload=()=>n(window.XLSX),e.onerror=()=>o(new Error("Не удалось загрузить библиотеку Excel")),document.head.appendChild(e)}),r)}export{l as loadXLSX};
