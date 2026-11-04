@@ -1,18 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Hydros">
-  <defs>
-    <clipPath id="clip"><path d="M100 10 C100 10 36 84 36 128 A64 64 0 0 0 164 128 C164 84 100 10 100 10Z" transform="translate(100 128) scale(.86) translate(-100 -128)"/></clipPath>
-  </defs>
-  <path d="M100 10 C100 10 36 84 36 128 A64 64 0 0 0 164 128 C164 84 100 10 100 10Z" fill="none" stroke="#0F4C81" stroke-width="5"/>
-  <g transform="translate(100 128) scale(.86) translate(-100 -128)">
-    <path d="M100 10 C100 10 36 84 36 128 A64 64 0 0 0 164 128 C164 84 100 10 100 10Z" fill="#0F4C81"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Hydros">
+  <defs><clipPath id="hx"><polygon points="30,10 90,10 116,60 90,110 30,110 4,60"/></clipPath></defs>
+  <g clip-path="url(#hx)">
+    <rect width="120" height="120" fill="#FBE3B5"/>
+    <path d="M0 62Q15 57 30 62T60 62T90 62T120 62V120H0Z" fill="#1FB5A5"/>
+    <path d="M0 88Q15 83 30 88T60 88T90 88T120 88V120H0Z" fill="#14808B"/>
+    <path d="M0 62Q15 57 30 62T60 62T90 62T120 62" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M24 0H44V40H50V74H44V120H24Z" fill="#0E3B43"/><path d="M96 0H76V40H70V74H76V120H96Z" fill="#0E3B43"/>
   </g>
-  <g clip-path="url(#clip)">
-    <path d="M20 146 Q60 128 100 144 T180 136 V200 H20Z" fill="#2BA79D"/>
-    <g fill="none" stroke="#9ADBF8" stroke-linecap="round">
-      <path d="M20 70 Q60 56 100 68 T180 62" stroke-width="2"/>
-      <path d="M20 92 Q60 76 100 90 T180 84" stroke-width="2.5"/>
-      <path d="M20 114 Q60 98 100 112 T180 106" stroke-width="3"/>
-      <path d="M20 146 Q60 128 100 144 T180 136" stroke-width="4" stroke="#FFFFFF"/>
-    </g>
-  </g>
+  <polygon points="30.4,11.5 89.6,11.5 114.8,60 89.6,108.5 30.4,108.5 5.2,60" fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
 </svg>

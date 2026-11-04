@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 282 92" role="img" aria-label="hydros"><g transform="translate(0 0) scale(1)" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke="#0E3B43">
+    <path d="M6 0V60M6 38C6 27 12 21 21 21C30 21 36 27 36 38V60"/>
+    <path d="M54 21V40C54 52 60 57 70 57C80 57 86 52 86 40V21M86 40V68C86 77 80 81 70 81C65 81 61 80 58 78"/>
+    <circle cx="118" cy="40" r="19"/><path d="M137 0V60"/>
+    <path d="M156 21V60M156 40C156 28 162 21 174 21"/>
+    <circle cx="212" cy="40" r="19" stroke="#1FB5A5"/>
+    <path d="M275 29C271 24 266 21 260 21C253 21 249 25 249 31C249 43 275 38 275 50C275 56 270 59 263 59C256 59 251 56 248 52"/>
+  </g></svg>

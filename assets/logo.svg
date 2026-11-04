@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 266" role="img" aria-label="Hydros — Hydrogeological Monitoring System">
-  <defs>
-    <clipPath id="clip"><path d="M100 10 C100 10 36 84 36 128 A64 64 0 0 0 164 128 C164 84 100 10 100 10Z" transform="translate(100 128) scale(.86) translate(-100 -128)"/></clipPath>
-  </defs>
-  <path d="M100 10 C100 10 36 84 36 128 A64 64 0 0 0 164 128 C164 84 100 10 100 10Z" fill="none" stroke="#0F4C81" stroke-width="5"/>
-  <g transform="translate(100 128) scale(.86) translate(-100 -128)">
-    <path d="M100 10 C100 10 36 84 36 128 A64 64 0 0 0 164 128 C164 84 100 10 100 10Z" fill="#0F4C81"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 216" role="img" aria-label="Hydros — Hydrogeological Monitoring System">
+  <g transform="translate(40 2)"><defs><clipPath id="hxl"><polygon points="30,10 90,10 116,60 90,110 30,110 4,60"/></clipPath></defs>
+  <g clip-path="url(#hxl)">
+    <rect width="120" height="120" fill="#FBE3B5"/>
+    <path d="M0 62Q15 57 30 62T60 62T90 62T120 62V120H0Z" fill="#1FB5A5"/>
+    <path d="M0 88Q15 83 30 88T60 88T90 88T120 88V120H0Z" fill="#14808B"/>
+    <path d="M0 62Q15 57 30 62T60 62T90 62T120 62" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M24 0H44V40H50V74H44V120H24Z" fill="#0E3B43"/><path d="M96 0H76V40H70V74H76V120H96Z" fill="#0E3B43"/>
   </g>
-  <g clip-path="url(#clip)">
-    <path d="M20 146 Q60 128 100 144 T180 136 V200 H20Z" fill="#2BA79D"/>
-    <g fill="none" stroke="#9ADBF8" stroke-linecap="round">
-      <path d="M20 70 Q60 56 100 68 T180 62" stroke-width="2"/>
-      <path d="M20 92 Q60 76 100 90 T180 84" stroke-width="2.5"/>
-      <path d="M20 114 Q60 98 100 112 T180 106" stroke-width="3"/>
-      <path d="M20 146 Q60 128 100 144 T180 136" stroke-width="4" stroke="#FFFFFF"/>
-    </g>
+  <polygon points="30.4,11.5 89.6,11.5 114.8,60 89.6,108.5 30.4,108.5 5.2,60" fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round"/></g>
+  <g transform="translate(29.5 132) scale(0.5)" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke="#0E3B43">
+    <path d="M6 0V60M6 38C6 27 12 21 21 21C30 21 36 27 36 38V60"/>
+    <path d="M54 21V40C54 52 60 57 70 57C80 57 86 52 86 40V21M86 40V68C86 77 80 81 70 81C65 81 61 80 58 78"/>
+    <circle cx="118" cy="40" r="19"/><path d="M137 0V60"/>
+    <path d="M156 21V60M156 40C156 28 162 21 174 21"/>
+    <circle cx="212" cy="40" r="19" stroke="#1FB5A5"/>
+    <path d="M275 29C271 24 266 21 260 21C253 21 249 25 249 31C249 43 275 38 275 50C275 56 270 59 263 59C256 59 251 56 248 52"/>
   </g>
-  <text x="100" y="236" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-weight="500" letter-spacing="-1" font-size="36"><tspan fill="#0F4C81">Hyd</tspan><tspan fill="#2BA79D">ros</tspan></text>
-  <text x="100" y="256" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="8.4" letter-spacing="1.2" fill="#34495E">HYDROGEOLOGICAL MONITORING SYSTEM</text>
+  <text x="100" y="204" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="8.4" letter-spacing="1.2" fill="#34495E">HYDROGEOLOGICAL MONITORING SYSTEM</text>
 </svg>

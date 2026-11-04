@@ -13,13 +13,13 @@
   --ink: #0E2233;
   --ink-2: #384B5E;
   --ink-3: #6A8097;
-  --navy: #0F4C81;
-  --blue: #1565A6;
-  --sky: #9ADBF8;
-  --teal: #2BA79D;
-  --teal-ink: #17695F;
-  --sand: #B9A47F;
-  --sand-deep: #8F7A58;
+  --navy: #0E3B43;
+  --blue: #14606C;
+  --sky: #8EE3D8;
+  --teal: #1FB5A5;
+  --teal-ink: #10736B;
+  --sand: #F2A93B;
+  --sand-deep: #B97A12;
   --paper: #F4F8FB;
   --paper-2: #EAF0F6;
   --card: #FFFFFF;
@@ -53,6 +53,7 @@ h1, h2, h3, p { margin: 0; }
 .top .wrap { display: flex; align-items: center; gap: 28px; height: 68px; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 20px; letter-spacing: -0.02em; }
 .brand img { height: 38px; width: auto; }
+.brand img.wm { height: 22px; width: auto; }
 .brand b { color: var(--navy); }
 .brand i { font-style: normal; color: var(--teal); }
 .nav { display: flex; gap: 24px; margin-left: auto; font-size: 13px; font-weight: 500; }
@@ -101,8 +102,9 @@ h1 em { font-style: normal; color: var(--navy); background: linear-gradient(tran
 .win-side { background: #fff; border-right: 1px solid var(--line); padding: 14px 10px; display: flex; flex-direction: column; gap: 6px; font-size: 10.5px; color: var(--ink-2); }
 .win-side .logo { display: flex; align-items: center; gap: 6px; font-weight: 800; font-size: 13px; margin-bottom: 8px; color: var(--navy); }
 .win-side .logo img { height: 22px; }
+.win-side .logo img.wm { height: 11px; }
 .win-side div.it { padding: 6px 8px; border-radius: 6px; }
-.win-side div.on { background: #E4EEF8; color: var(--navy); font-weight: 800; }
+.win-side div.on { background: #E5F2F4; color: var(--navy); font-weight: 800; }
 .win-main { padding: 14px; background: var(--paper); display: flex; flex-direction: column; gap: 10px; }
 .kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
 .kpi { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
@@ -214,7 +216,7 @@ input, textarea, select { font: inherit; font-size: 14px; letter-spacing: 0; tex
 textarea { min-height: 96px; resize: vertical; }
 input:focus, textarea:focus, select:focus { outline: none; border-color: var(--navy); background: #fff; box-shadow: 0 0 0 4px rgba(21,101,166,.14); }
 .form-note { font-size: 11.5px; color: var(--ink-3); }
-.form-ok { display: none; padding: 12px 14px; border-radius: 8px; background: #DFF3EE; color: var(--teal-ink); font-size: 13px; }
+.form-ok { display: none; padding: 12px 14px; border-radius: 8px; background: #E0F7F4; color: var(--teal-ink); font-size: 13px; }
 .form-ok.show { display: block; }
 
 /* подвал и пласты */
